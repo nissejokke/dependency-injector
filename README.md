@@ -69,3 +69,6 @@ Resolves dependency but returns DepencencyType result
 
 Creates new DepencencyInjector instance from current instance
 
+## deps
+
+Dependecies dictionary
