@@ -1,0 +1,22 @@
+{
+  "name": "dependency-injector",
+  "version": "1.0.0",
+  "description": "Simple dependecy injector which work in IE and doesn't use Proxy",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli --config webpack.prod.js",
+    "test": "jest"
+  },
+  "author": "Johan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.8",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.0.9"
+  }
+}
