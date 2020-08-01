@@ -1,7 +1,7 @@
 {
   "name": "dependency-injector",
   "version": "1.0.0",
-  "description": "Simple dependecy injector which work in IE and doesn't use Proxy",
+  "description": "Simple dependency injector which work in IE and doesn't use Proxy",
   "main": "index.js",
   "scripts": {
     "build": "webpack-cli --config webpack.prod.js",

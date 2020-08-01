@@ -1,4 +1,4 @@
-# Dependency injector
+# Dependency Injector
 
 Simple dependency injector for javascript/typescript which works in IE and doesn't use [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy).
 
@@ -6,7 +6,9 @@ Inspired by [Awilix](https://github.com/jeffijoe/awilix).
 
 ## Examples
 
-```javascript
+```typescript
+import { DependencyInjector, asValue, asClass, asFunction } from './dependency-injector';
+
 const di = new DependencyInjector();
 di.register({
     db: asValue('localhost'),
@@ -43,7 +45,7 @@ const service = di.resolve('service') as number;
 // service == 2
 ```
 
-Dependencies will be instanciated every time they are resolved. See test for more examples.
+Dependencies will be instantiated every time they are resolved. See test for more examples.
 
 ## Restrictions
 
@@ -61,7 +63,7 @@ Registers dependencies as values (asValue), function (asFunction) or classes (as
 
 Resolves dependency
 
-### resolveDependency()
+## resolveDependency()
 
 Resolves dependency but returns DepencencyType result
 
